@@ -1,0 +1,5 @@
+.vgit add computer-history-client/.gitignore
+git add computer-history-client/agent_client.pyenv/
+__pycache__/
+.env
+*.pyc
