@@ -2,37 +2,36 @@
 
 ## Overview
 
-Computing History AI Agent is a conversational AI application built using Azure AI Foundry and Azure OpenAI services. The application allows users to interact with an AI assistant that answers questions related to computing history through a web-based interface.
+This project is based on Microsoft's Azure AI Foundry learning sample and has been modified and deployed as a personal learning project.
+
+The application provides an AI-powered conversational assistant focused on computing history topics through a web-based interface.
 
 ## Features
 
-* AI-powered conversational assistant
 * Azure AI Foundry Agent integration
-* Web interface built with Flask
-* Secure environment variable configuration
-* Git version control and GitHub integration
+* Conversational AI interface
+* Flask web application
+* Environment-based configuration
+* GitHub version control
 
-## Tech Stack
+## Technologies Used
 
 * Python
 * Azure AI Foundry
 * Azure OpenAI
 * Flask
 * HTML/CSS
-* Git & GitHub
+* Git
 
-## Project Structure
+## My Contributions
 
-agent.py – AI agent logic
+* Configured and deployed the agent locally
+* Integrated client application with Azure AI services
+* Added environment-based configuration
+* Managed source code using Git and GitHub
+* Customized the project for portfolio purposes
 
-computer-history-client/
-
-* app.py
-* agent_client.py
-* templates/
-* static/
-
-## Installation
+## Setup
 
 1. Clone the repository
 2. Create a virtual environment
@@ -40,18 +39,11 @@ computer-history-client/
 
 pip install -r requirements.txt
 
-4. Configure environment variables in .env
+4. Configure environment variables
 5. Run the application
 
 python app.py
 
-## Learning Outcomes
+## Acknowledgement
 
-* Built and integrated an AI agent using Azure services
-* Implemented client-server interaction
-* Managed secrets securely using environment variables
-* Used Git and GitHub for version control
-
-## Author
-
-Raghavendra saiteja Basani
+This project is based on Microsoft's Azure AI Foundry learning materials and has been modified for educational and portfolio purposes.
